@@ -1,14 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * nama : yongki agustin
+ * kelas : if6k
+ * nim : 10117903
+ * Todo : latihan teks 
  */
 package latihan8pecahan;
 
-/**
- *
- * @author Teknisi
- */
+
 public class Latihan8Pecahan {
 
     public static void main(String[] args) {
