@@ -2,9 +2,11 @@
  * nama     : yongki agustin
  * kelas    : if6k
  * nim      : 10117903
- * Todo     : - membuat tampilan(done) 
-              - memb
- */
+ * Todo     : - membuat variable, harus menggunakan double
+              - membuat rumus
+              - menyamakan inputan menggunakan equals 
+              - menampilkan hasil
+*/
 package latihan17tunjangan;
 import java.util.Scanner;
 /**
@@ -17,7 +19,7 @@ public class Latihan17Tunjangan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double gajiKotor, totalGaji;
+        double gajiKotor, totalGaji, tunjangan;
         String menikah;
         String jawaban = "Menikah";
         System.out.println("================Program Tunjangan================");
@@ -29,14 +31,18 @@ public class Latihan17Tunjangan {
         menikah = inMenikah.nextLine();
         
         if (menikah.equals(jawaban)) {
-            totalGaji = gajiKotor *0.35 + gajiKotor;
+            tunjangan = gajiKotor *0.35;
+            totalGaji = tunjangan + gajiKotor;
             
         }
         else {
-            totalGaji = gajiKotor;
+            tunjangan = 0;
+            totalGaji = tunjangan + gajiKotor;
         }
         System.out.println("================Hasil Perhitungan Gaji===========");
-        System.out.println("Gaji anda adalah : "+totalGaji);
+        System.out.println("Gaji pokok \t: "+totalGaji);
+        System.out.println("Tunjangan \t: "+tunjangan);
+        System.out.println("Total Gaji \t: "+totalGaji);
     }
     
 }
