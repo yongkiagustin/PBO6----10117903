@@ -16,6 +16,9 @@ public class Latihan18Kelipatan {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        for (double i = 3.5; i <= 35; i = i + 3.5) {
+            System.out.println(i);
+        }
     }
-    
+
 }
