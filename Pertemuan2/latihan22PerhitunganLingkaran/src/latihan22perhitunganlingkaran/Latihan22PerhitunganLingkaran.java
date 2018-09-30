@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * nama : yongki agustin
+ * kelas : if6k
+ * nim : 10117903
+ * Todo : - membuat fungsi catch agar bisa input hanya angka
+          - membuat looping do while
  */
 package latihan22perhitunganlingkaran;
 
@@ -22,7 +24,7 @@ public class Latihan22PerhitunganLingkaran {
         int i = 1;
         boolean checker = false;
         final double phi = 3.14159;
-        do  {
+        do {
             try {
                 System.out.print("masukkan nilai diameter lingkaran : ");
                 Scanner inputdia = new Scanner(System.in);
