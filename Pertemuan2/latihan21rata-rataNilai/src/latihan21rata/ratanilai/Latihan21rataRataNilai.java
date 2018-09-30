@@ -21,7 +21,7 @@ public class Latihan21rataRataNilai {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int jumlahsiswa, jml, nilai[];
+        int jumlahsiswa, nilai[];
         float rata, jumlah = 0;
 
         //Input jumlah mahasiswa
@@ -35,7 +35,6 @@ public class Latihan21rataRataNilai {
         for (int i = 0; i <= jumlahsiswa - 1 ; i++) {
             System.out.print("Nilai Mahasiswa ke-" + (i + 1) + " : ");
             nilai[i] = input.nextInt();
-            System.out.println();
         }
 
         //Hitung Jumlah
