@@ -33,12 +33,12 @@ public class Latihan22PerhitunganLingkaran {
                 System.out.println("keliling nya adalah " + String.format("%.2f", keliling));
                 System.out.println("Jari-jari nya adalah " + String.format("%.2f", jari));
                 System.out.println("Luas nya adalah " + String.format("%.2f", luas));
-
+                checker = true;
             } catch (InputMismatchException diameter) {
                 System.out.println("salah");
                 i++;
             }
-        } while (i <= 3);
+        } while (!checker);
 
     }
 
