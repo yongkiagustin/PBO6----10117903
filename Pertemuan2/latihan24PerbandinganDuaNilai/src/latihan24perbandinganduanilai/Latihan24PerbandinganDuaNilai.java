@@ -41,12 +41,13 @@ public class Latihan24PerbandinganDuaNilai {
                 System.out.println("Hasil : " + nilai1 + " sama dengan " + nilai2 + "\n");
             }
 
-//            ketikkan "Tidak" bila ingin berhenti aktifitas
+//            ketikkan "tidak" bila ingin berhenti aktifitas
             System.out.print("Ulangi Aktifitas ? (Ya/Tidak) : ");
             lagi = input.next();
 
             System.out.println("");
         } while (!lagi.equalsIgnoreCase("tidak"));
+//equalsIgnoreCase untuk mengabaikan inputan Huruf kapital atau tidak
     }
 
 }
