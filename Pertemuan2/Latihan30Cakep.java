@@ -2,7 +2,7 @@
  * nama : yongki agustin
  * kelas : if6k
  * nim : 10117903
- * Todo : - membuat
+ * Todo : - membuat pernyataan
  */
 package latihan30cakep;
 
