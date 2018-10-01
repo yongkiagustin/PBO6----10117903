@@ -20,37 +20,37 @@ public class Latihan23NilaiTerbesarDanTerkecil {
     public static void main(String[] args) {
         //        deklarasi variabel
         String petugas;
-        int nMhs; //jumlah mahasiswa
-        int nBesar;
-        int nKecil;
-        int nilaiMhs;
-        Scanner scn = new Scanner(System.in);
+        int banyakMahasiswa; 
+        int terbesar;
+        int terkecil;
+        int nilaiMaha;
+        Scanner input = new Scanner(System.in);
         
         System.out.println("======Program Nilai Terbesar dan Terkecil Nilai "
                 + "Mahasiswa======");
         
         System.out.print("Masukkan Nama Petugas : ");
-        petugas = scn.next();
+        petugas = input.next();
         
         System.out.print("Masukkan Banyaknya Mahasiswa : ");
-        nMhs = scn.nextInt();
+        banyakMahasiswa = input.nextInt();
         
 //        inisialisasi variabel
-        nBesar = 0;
-        nKecil = 100;
+        terbesar = 0;
+        terkecil = 100;
 //        looping sesuai jumlahh mahasiswa
-        for (int i = 1; i <= nMhs; i++) {
+        for (int i = 1; i <= banyakMahasiswa; i++) {
             System.out.print("Masukkan Nilai Mahasiswa ke-"+i+" = ");
-            nilaiMhs = scn.nextInt();
+            nilaiMaha = input.nextInt();
             
             //menentukan nilai terbesar dan nilai terkecil
-            nBesar = ((nBesar<=nilaiMhs)?nilaiMhs:nBesar);
-            nKecil = ((nKecil>=nilaiMhs)?nilaiMhs:nKecil);
+            terbesar = ((terbesar<=nilaiMaha)?nilaiMaha:terbesar);
+            terkecil = ((terkecil>=nilaiMaha)?nilaiMaha:terkecil);
         }
         
 //        menampilkan hasil dari nilai terbesar dan nilai terkecil
-        System.out.print("\nNilai Terbesar adalah : "+ nBesar);
-        System.out.println("\nNilai Terkecil adalah : "+ nKecil);
+        System.out.print("\nNilai Terbesar adalah : "+ terbesar);
+        System.out.println("\nNilai Terkecil adalah : "+ terkecil);
         
     }
     
